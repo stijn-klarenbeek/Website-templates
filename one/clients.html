@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Import bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap_addons.css" rel="stylesheet" type="text/css" />
+
+    <!-- Import fontawesome -->
+    <link href="/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Import all fonts from fontawesome -->
+    <link href="/css/all.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Swiper -->
+    <link href="/css/swiper.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- My styles -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      id="top-nav"
+      class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top pt-lg-4 pb-lg-4"
+    >
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="index.html">
+          Temblem
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarResponsive">
+          <ul class="navbar-nav d-flex align-items-center ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="clients.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn bg-main nav-button" type="button">
+                contact
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main header-->
+    <header
+      id="client_hero"
+      class="container-fluid d-flex justify-content-center align-items-center"
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 text-center">
+            <!-- Main header -->
+            <span class="display-6">
+              Changing the world around <b class="color-main">you</b>
+            </span>
+
+            <!-- Main header text -->
+            <p class="pt-3 lh-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              soluta, rem hic in laborum nulla?
+            </p>
+
+            <!-- Buttons -->
+            <div class="mt-4">
+              <button class="btn-custom-outlined  ml-4">
+                <span class="inner color-main">
+                  <i class="fas fa-long-arrow-alt-down"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="client_cases"
+      class="container-fluid d-flex justify-content-center "
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-center pt-8">
+          <article class="col-lg-7 text-center pt-6">
+            <!-- header -->
+            <span class="display-6">
+              Developing projects for clients like you is
+              <b class="color-main">what we live for.</b>
+            </span>
+
+            <!-- text -->
+            <p class="pt-3 lh-2">
+              Check out some of our cases below
+            </p>
+          </article>
+        </div>
+
+        <!-- Case row -->
+        <div class="row pt-7">
+          <!-- Column 1 -->
+          <a href="#" class="col-lg-6 col-12 img-link">
+            <div class="img-link-img"></div>
+            <div class="link-title pt-3">
+              Lorem ipsum dolor sit amet consectetur.
+            </div>
+            <div class="link-tags pt-1 pb-1">
+              <span class="label label-grey mr-4">Lorem</span>
+              <span class="label label-grey mr-4">ipsum</span>
+              <span class="label label-grey">dolor</span>
+            </div>
+            <div class="link-description pt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+              facilis?
+            </div>
+          </a>
+
+          <!-- Column 2 -->
+          <a href="#" class="col-lg-6 col-12 img-link">
+            <div class="img-link-img"></div>
+            <div class="link-title pt-3">
+              Lorem ipsum dolor sit amet consectetur.
+            </div>
+            <div class="link-tags pt-1 pb-1">
+              <span class="label label-grey mr-4">Lorem</span>
+              <span class="label label-grey mr-4">ipsum</span>
+              <span class="label label-grey">dolor</span>
+            </div>
+            <div class="link-description pt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+              facilis?
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/swiper.min.js"></script>
+
+    <script>
+      $(function() {
+        $(document).on("scroll", function() {
+          if ($(this).scrollTop() > 10) {
+            $("#top-nav").addClass("nav-white");
+          } else {
+            $("#top-nav").removeClass("nav-white");
+          }
+        });
+
+        if ($(document).scrollTop() > 10) {
+          $("#top-nav").addClass("nav-white");
+        } else {
+          $("#top-nav").removeClass("nav-white");
+        }
+      });
+    </script>
+  </body>
+</html>

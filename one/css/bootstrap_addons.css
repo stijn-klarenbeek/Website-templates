@@ -1,0 +1,121 @@
+
+/* Bootstrap cgabges */
+.display-5 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.4em;
+  }
+  
+  .display-6 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 1.4em;
+  }
+  
+  b {
+    font-weight: 500;
+  }
+  .btn {
+    border-radius: 3px;
+    padding: 12px 40px;
+  }
+  
+  .card {
+    border: none;
+    -webkit-box-shadow: 0px 10px 31px -12px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 10px 31px -12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 31px -12px rgba(0, 0, 0, 0.15);
+  }
+  .card.card-highlight {
+    transform: scale(1.1);
+    border: 1px solid #c9ccff;
+    -webkit-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+    -moz-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+    box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+  }
+  .card.card.card-highlight a {
+    color: #1b42ff;
+  }
+  .card a {
+    color: #343a40;
+  }
+  
+  .card .card-img {
+    width: 70px;
+  }
+  
+  .pt-6 {
+    padding-top: 4rem;
+  }
+  .pt-7 {
+    padding-top: 5rem;
+  }
+  .pt-8 {
+    padding-top: 6rem;
+  }
+  .pt-9 {
+    padding-top: 7rem;
+  }
+  
+  /* Color scheeme */
+  h1.color-main,
+  h2.color-main,
+  h3.color-main,
+  h4.color-main,
+  h5.color-main,
+  span.color-main,
+  p.color-main,
+  small.color-main,
+  .color-main {
+    color: #6fffe9;
+    color: #1b42ff;
+  }
+  
+  .color-second {
+    color: #6369d1;
+  }
+  
+  button.bg-main {
+    background: #6fffe9;
+    background: #1b42ff;
+    color: white;
+    border: 1px solid transparent;
+  }
+  button.bg-main:hover {
+    background: transparent;
+    border-color: #1b42ff;
+    color: #1b42ff;
+  }
+  
+  .btn:focus {
+    box-shadow: none;
+  }
+  
+  .btn-dark {
+    border-radius: 25px;
+  }
+  .btn-dark:hover {
+    background: transparent;
+    color: #343a40;
+  }
+  
+  .btn-blue {
+    background: #1b42ff;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+    -moz-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+    box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.3);
+    transition: 250ms;
+  }
+  .btn-blue:hover {
+    background: transparent;
+    color: #1b42ff;
+    border-color: #1b42ff;
+    -webkit-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.5);
+    -moz-box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.5);
+    box-shadow: 0px 10px 31px -12px rgba(27, 66, 255, 0.5);
+    transition: 250ms;
+  }
+  
